@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #c94d2b90;
+}
+html, body{
+    height: 100%;
+ }
+ .menu ul {
+    display: inline-flex;
+    margin: 50px;
+ }
+ .menu ul li {
+   list-style: none;
+   margin: 0 20px;
+   color: #b2b1b1;
+   cursor: pointer;
+
+ }
+ .logo img{
+    width: 80px;
+    margin-top: -35px;
+    margin-right: 25px;
+
+ }
+ .active{
+    color: #19dafa !important;
+ }
+ .signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+ }
+ .signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1f2235, #2c2f3f); /* Subtle gradient */
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1c2b;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b0b3c1;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00d1ff; /* Highlight color for hover */
+}
+
+/* Sign-Up Button */
+.signup-btn {
+    background: linear-gradient(45deg, #ff004d, #ff9100);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(45deg, #ff9100, #ff004d);
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1c2b 30%, #ff004d 90%);
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #ff004d;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #ff9100;
+    transform: scale(1.1);
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+.App-text{
+    width: 50%;
+    float: left;
+}
+.App-text h1{
+   font-size: 43px;
+   width: 640px;    
+   position: relative;
+   margin-left: 40px;
+}
+.App-text p{
+   width: 650px;
+   font-size: 15px;
+   margin: 30px 0 30px 40px;
+   line-height: 25px;
+   color: #919191;
+ }
+ .app-picture{
+    width: 50%;
+    float: right;
+ }
+ .app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+ }
+ /* Social Media Centering */
+.social-media {
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+    gap: 15px; /* Adds space between icons */
+    margin-top: -90px; /* Adds space between the description and icons */
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ff4500; /* Change icon color on hover */
+}
